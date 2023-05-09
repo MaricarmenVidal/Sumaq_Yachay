@@ -187,9 +187,13 @@ header .background {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 170%;
   text-align: center;
-  padding-top: 110px;
+  padding-top: 100px;
   padding-bottom: 5px;
   width: 100%;
+}
+
+.div-crousel {
+  padding: 20px;
 }
 
 .footer {
