@@ -1,0 +1,337 @@
+@import url("https://fonts.googleapis.com/css2?family=Comme&family=Josefin+Sans:ital,wght@1,300&family=Kanit&family=Oleo+Script&family=Sigmar&family=Tinos&display=swap");
+header .background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content p, .description, .mision,
+.vision {
+  text-align: justify;
+  font-family: "Kanit";
+  font-size: 120%;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+}
+header nav {
+  /**background-color: nth($colores, 1);**/
+  background-color: white;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+header nav a img {
+  width: 50px;
+}
+header .background {
+  /*background-color: nth($colores, 1);*/
+  background-color: white;
+  width: 100%;
+}
+header .background a {
+  font-family: "Tinos";
+  font-size: 130%;
+}
+
+.footer {
+  background-color: #DFE1E1;
+}
+.footer .Seguir {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  color: blue;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer .social-media {
+  display: flex;
+  justify-content: space-around;
+}
+.footer .social-media .instagram,
+.footer .social-media .facebook {
+  text-align: center;
+}
+.footer .social-media .instagram .img-2,
+.footer .social-media .facebook .img-2 {
+  width: 40px;
+}
+.footer .social-media .instagram p,
+.footer .social-media .facebook p {
+  font-family: "Tinos";
+}
+
+/*pages*/
+header .background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content p, .description, .mision,
+.vision {
+  text-align: justify;
+  font-family: "Kanit";
+  font-size: 120%;
+}
+
+.titulo {
+  width: 100%;
+}
+.titulo div .sy {
+  font-family: "Oleo Script";
+  font-size: 500%;
+  padding-top: 95px;
+  text-align: center;
+}
+.titulo div .slogan {
+  font-family: "Josefin Sans";
+  font-size: 200%;
+  text-align: center;
+  padding: 10px;
+  color: #948075;
+  width: 100%;
+}
+
+.foto-grupal {
+  width: 100%;
+  margin: 20px 20px;
+}
+
+.questions {
+  background-color: #DFE1E1;
+  font-family: "Sigmar";
+  font-size: 2rem;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.bold {
+  color: #849494;
+}
+
+.mision,
+.vision {
+  margin: 20px 70px 20px 70px;
+}
+
+.description {
+  padding: 20px;
+}
+
+.valores img {
+  margin-top: 30px;
+}
+
+header .background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content p, .mision,
+.vision, .description {
+  text-align: justify;
+  font-family: "Kanit";
+  font-size: 120%;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+}
+header nav {
+  /**background-color: nth($colores, 1);**/
+  background-color: white;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+header nav a img {
+  width: 50px;
+}
+header .background {
+  /*background-color: nth($colores, 1);*/
+  background-color: white;
+  width: 100%;
+}
+header .background a {
+  font-family: "Tinos";
+  font-size: 130%;
+}
+
+header .background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content p, .mision,
+.vision, .description {
+  text-align: justify;
+  font-family: "Kanit";
+  font-size: 120%;
+}
+
+.content p {
+  margin: 20px 70px 20px 70px;
+}
+
+.title {
+  background-color: #d698da;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 170%;
+  text-align: center;
+  padding-top: 110px;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+.footer {
+  background-color: #DFE1E1;
+}
+.footer .Seguir {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  color: blue;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer .social-media {
+  display: flex;
+  justify-content: space-around;
+}
+.footer .social-media .instagram,
+.footer .social-media .facebook {
+  text-align: center;
+}
+.footer .social-media .instagram .img-2,
+.footer .social-media .facebook .img-2 {
+  width: 40px;
+}
+.footer .social-media .instagram p,
+.footer .social-media .facebook p {
+  font-family: "Tinos";
+}
+
+header .background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mision,
+.vision, .description, .content p {
+  text-align: justify;
+  font-family: "Kanit";
+  font-size: 120%;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+}
+header nav {
+  /**background-color: nth($colores, 1);**/
+  background-color: white;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+header nav a img {
+  width: 50px;
+}
+header .background {
+  /*background-color: nth($colores, 1);*/
+  background-color: white;
+  width: 100%;
+}
+header .background a {
+  font-family: "Tinos";
+  font-size: 130%;
+}
+
+header .background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mision,
+.vision, .description, .content p {
+  text-align: justify;
+  font-family: "Kanit";
+  font-size: 120%;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+}
+header nav {
+  /**background-color: nth($colores, 1);**/
+  background-color: white;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+header nav a img {
+  width: 50px;
+}
+header .background {
+  /*background-color: nth($colores, 1);*/
+  background-color: white;
+  width: 100%;
+}
+header .background a {
+  font-family: "Tinos";
+  font-size: 130%;
+}
+
+header .background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mision,
+.vision, .description, .content p {
+  text-align: justify;
+  font-family: "Kanit";
+  font-size: 120%;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+}
+header nav {
+  /**background-color: nth($colores, 1);**/
+  background-color: white;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+header nav a img {
+  width: 50px;
+}
+header .background {
+  /*background-color: nth($colores, 1);*/
+  background-color: white;
+  width: 100%;
+}
+header .background a {
+  font-family: "Tinos";
+  font-size: 130%;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,23 @@
+@import "header";
+@import "../base/extends";
+@import "../base/listas";
+
+.content{
+    p{
+        @extend %text;
+        margin: 20px 70px 20px 70px;
+    }
+}
+
+.title{
+    background-color:#d698da;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 170%;
+    text-align: center;
+    padding-top:110px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+
+@import "footer";
