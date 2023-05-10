@@ -9,3 +9,12 @@
     font-family: nth($font-family,  11);
     font-size: 120%;
 }
+
+%title {
+    background-color:#d698da;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 170%;
+    text-align: center;
+    padding-bottom: 5px;
+    width: 100%;
+}

@@ -10,17 +10,17 @@
 }
 
 .title{
-    background-color:#d698da;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 170%;
-    text-align: center;
-    padding-top: 100px;
-    padding-bottom: 5px;
-    width: 100%;
+    padding-top: 90px;
+    @extend %title;
 }
 
-.div-crousel{
-    padding: 20px;
+.title-2{
+    padding: 10px;
+    @extend %title;
+}
+
+.div-carousel{
+    padding: 20px 80px;
 }
 
 @import "footer";

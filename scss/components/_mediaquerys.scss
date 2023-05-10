@@ -1,0 +1,19 @@
+@media screen and (max-width:768px) {
+    .div-carousel{
+        padding: 20px ;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .mision,
+    .vision{
+        @extend %text;
+        margin: 20px;
+    }
+    .content{
+        p{
+            @extend %text;
+            margin: 30px;
+        }
+    }
+}

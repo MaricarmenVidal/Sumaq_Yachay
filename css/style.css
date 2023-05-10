@@ -12,6 +12,15 @@ header .background {
   font-size: 120%;
 }
 
+.title-2, .title {
+  background-color: #d698da;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 170%;
+  text-align: center;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
 header {
   position: fixed;
   top: 0px;
@@ -79,6 +88,15 @@ header .background {
   font-size: 120%;
 }
 
+.title-2, .title {
+  background-color: #d698da;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 170%;
+  text-align: center;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
 .titulo {
   width: 100%;
 }
@@ -99,7 +117,7 @@ header .background {
 
 .foto-grupal {
   width: 100%;
-  margin: 20px 20px;
+  padding: 20px 20px;
 }
 
 .questions {
@@ -140,6 +158,15 @@ header .background {
   font-size: 120%;
 }
 
+.title-2, .title {
+  background-color: #d698da;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 170%;
+  text-align: center;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
 header {
   position: fixed;
   top: 0px;
@@ -178,22 +205,29 @@ header .background {
   font-size: 120%;
 }
 
+.title-2, .title {
+  background-color: #d698da;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 170%;
+  text-align: center;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
 .content p {
   margin: 20px 70px 20px 70px;
 }
 
 .title {
-  background-color: #d698da;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 170%;
-  text-align: center;
-  padding-top: 100px;
-  padding-bottom: 5px;
-  width: 100%;
+  padding-top: 90px;
 }
 
-.div-crousel {
-  padding: 20px;
+.title-2 {
+  padding: 10px;
+}
+
+.div-carousel {
+  padding: 20px 80px;
 }
 
 .footer {
@@ -237,42 +271,13 @@ header .background {
   font-size: 120%;
 }
 
-header {
-  position: fixed;
-  top: 0px;
+.title, .title-2 {
+  background-color: #d698da;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 170%;
+  text-align: center;
+  padding-bottom: 5px;
   width: 100%;
-  z-index: 1;
-}
-header nav {
-  /**background-color: nth($colores, 1);**/
-  background-color: white;
-  border-bottom: 1px solid black;
-  width: 100%;
-}
-header nav a img {
-  width: 50px;
-}
-header .background {
-  /*background-color: nth($colores, 1);*/
-  background-color: white;
-  width: 100%;
-}
-header .background a {
-  font-family: "Tinos";
-  font-size: 130%;
-}
-
-header .background {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.mision,
-.vision, .description, .content p {
-  text-align: justify;
-  font-family: "Kanit";
-  font-size: 120%;
 }
 
 header {
@@ -313,6 +318,15 @@ header .background {
   font-size: 120%;
 }
 
+.title, .title-2 {
+  background-color: #d698da;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 170%;
+  text-align: center;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
 header {
   position: fixed;
   top: 0px;
@@ -336,6 +350,68 @@ header .background {
 header .background a {
   font-family: "Tinos";
   font-size: 130%;
+}
+
+header .background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mision,
+.vision, .description, .content p {
+  text-align: justify;
+  font-family: "Kanit";
+  font-size: 120%;
+}
+
+.title, .title-2 {
+  background-color: #d698da;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 170%;
+  text-align: center;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+}
+header nav {
+  /**background-color: nth($colores, 1);**/
+  background-color: white;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+header nav a img {
+  width: 50px;
+}
+header .background {
+  /*background-color: nth($colores, 1);*/
+  background-color: white;
+  width: 100%;
+}
+header .background a {
+  font-family: "Tinos";
+  font-size: 130%;
+}
+
+@media screen and (max-width: 768px) {
+  .div-carousel {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .mision,
+  .vision {
+    margin: 20px;
+  }
+  .content p {
+    margin: 30px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
