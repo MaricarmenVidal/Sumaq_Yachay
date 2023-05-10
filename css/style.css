@@ -12,13 +12,29 @@ header .background {
   font-size: 120%;
 }
 
-.title-2, .title {
+.title-equipo, .title-2, .title {
   background-color: #d698da;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 170%;
   text-align: center;
   padding-bottom: 5px;
   width: 100%;
+}
+
+.opciones-asesoria h5, div h4 {
+  text-align: center;
+  padding: 15px;
+}
+
+.p3, .p2, .p1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.op3, .op2, .op1 {
+  width: 100%;
+  padding: 5px;
 }
 
 header {
@@ -88,13 +104,29 @@ header .background {
   font-size: 120%;
 }
 
-.title-2, .title {
+.title-equipo, .title-2, .title {
   background-color: #d698da;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 170%;
   text-align: center;
   padding-bottom: 5px;
   width: 100%;
+}
+
+.opciones-asesoria h5, div h4 {
+  text-align: center;
+  padding: 15px;
+}
+
+.p3, .p2, .p1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.op3, .op2, .op1 {
+  width: 100%;
+  padding: 5px;
 }
 
 .titulo {
@@ -158,13 +190,29 @@ header .background {
   font-size: 120%;
 }
 
-.title-2, .title {
+.title-equipo, .title-2, .title {
   background-color: #d698da;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 170%;
   text-align: center;
   padding-bottom: 5px;
   width: 100%;
+}
+
+.opciones-asesoria h5, div h4 {
+  text-align: center;
+  padding: 15px;
+}
+
+.p3, .p2, .p1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.op3, .op2, .op1 {
+  width: 100%;
+  padding: 5px;
 }
 
 header {
@@ -205,13 +253,29 @@ header .background {
   font-size: 120%;
 }
 
-.title-2, .title {
+.title-equipo, .title-2, .title {
   background-color: #d698da;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 170%;
   text-align: center;
   padding-bottom: 5px;
   width: 100%;
+}
+
+.opciones-asesoria h5, div h4 {
+  text-align: center;
+  padding: 15px;
+}
+
+.p3, .p2, .p1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.op3, .op2, .op1 {
+  width: 100%;
+  padding: 5px;
 }
 
 .content p {
@@ -271,13 +335,29 @@ header .background {
   font-size: 120%;
 }
 
-.title, .title-2 {
+.title-equipo, .title, .title-2 {
   background-color: #d698da;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 170%;
   text-align: center;
   padding-bottom: 5px;
   width: 100%;
+}
+
+.opciones-asesoria h5, div h4 {
+  text-align: center;
+  padding: 15px;
+}
+
+.p3, .p2, .p1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.op3, .op2, .op1 {
+  width: 100%;
+  padding: 5px;
 }
 
 header {
@@ -318,7 +398,7 @@ header .background {
   font-size: 120%;
 }
 
-.title, .title-2 {
+.title-equipo, .title, .title-2 {
   background-color: #d698da;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 170%;
@@ -327,29 +407,51 @@ header .background {
   width: 100%;
 }
 
-header {
-  position: fixed;
-  top: 0px;
+.opciones-asesoria h5, div h4 {
+  text-align: center;
+  padding: 15px;
+}
+
+.p3, .p2, .p1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.op3, .op2, .op1 {
   width: 100%;
-  z-index: 1;
+  padding: 5px;
 }
-header nav {
-  /**background-color: nth($colores, 1);**/
-  background-color: white;
-  border-bottom: 1px solid black;
+
+.div-general {
+  padding: 10px;
   width: 100%;
 }
-header nav a img {
-  width: 50px;
+
+.grid-container {
+  display: grid;
+  grid-template-areas: "asesoria asesoria asesoria" "op1 op2 op3";
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 80px, auto;
 }
-header .background {
-  /*background-color: nth($colores, 1);*/
-  background-color: white;
-  width: 100%;
+
+.opciones-asesoria {
+  grid-area: asesoria;
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-header .background a {
-  font-family: "Tinos";
-  font-size: 130%;
+
+.op1 {
+  grid-area: op1;
+}
+
+.op2 {
+  grid-area: op2;
+}
+
+.op3 {
+  grid-area: op3;
 }
 
 header .background {
@@ -365,13 +467,29 @@ header .background {
   font-size: 120%;
 }
 
-.title, .title-2 {
+.title-equipo, .title, .title-2 {
   background-color: #d698da;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 170%;
   text-align: center;
   padding-bottom: 5px;
   width: 100%;
+}
+
+div h4, .opciones-asesoria h5 {
+  text-align: center;
+  padding: 15px;
+}
+
+.p1, .p2, .p3 {
+  display: flex;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.op1, .op2, .op3 {
+  width: 100%;
+  padding: 5px;
 }
 
 header {
@@ -397,6 +515,90 @@ header .background {
 header .background a {
   font-family: "Tinos";
   font-size: 130%;
+}
+
+.title-equipo {
+  padding-top: 90px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.cards {
+  padding: 5px 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.individual-card {
+  margin: 20px;
+}
+
+header .background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mision,
+.vision, .description, .content p {
+  text-align: justify;
+  font-family: "Kanit";
+  font-size: 120%;
+}
+
+.title, .title-2, .title-equipo {
+  background-color: #d698da;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 170%;
+  text-align: center;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+div h4, .opciones-asesoria h5 {
+  text-align: center;
+  padding: 15px;
+}
+
+.p1, .p2, .p3 {
+  display: flex;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.op1, .op2, .op3 {
+  width: 100%;
+  padding: 5px;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+}
+header nav {
+  /**background-color: nth($colores, 1);**/
+  background-color: white;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+header nav a img {
+  width: 50px;
+}
+header .background {
+  /*background-color: nth($colores, 1);*/
+  background-color: white;
+  width: 100%;
+}
+header .background a {
+  font-family: "Tinos";
+  font-size: 130%;
+}
+
+.div-contacto {
+  padding: 20px;
+  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -411,6 +613,27 @@ header .background a {
   }
   .content p {
     margin: 30px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .grid-container {
+    display: grid;
+    grid-template-areas: "asesoria" "op1" "op2" "op3";
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px, repeat(3, auto);
+  }
+}
+@media screen and (max-width: 600px) {
+  .cards {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  .individual-card {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin: auto;
   }
 }
 
