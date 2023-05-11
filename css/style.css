@@ -138,15 +138,37 @@ header .background {
   padding-top: 95px;
   text-align: center;
 }
-.titulo div .slogan {
+.titulo .div-slogan {
+  margin: auto;
+  display: table;
+}
+.titulo .div-slogan .slogan {
   font-family: "Josefin Sans";
   font-size: 200%;
   text-align: center;
   padding: 10px;
   color: #948075;
   width: 100%;
+  float: left;
+  position: relative;
+}
+.titulo .div-slogan .slogan span {
+  position: absolute;
+  right: 0;
+  width: 0;
+  background: white;
+  border-left: 1px solid #948075;
+  animation: maquina 5s infinite alternate steps(38);
 }
 
+@keyframes maquina {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+}
 .foto-grupal {
   width: 100%;
   padding: 20px 20px;
@@ -280,14 +302,27 @@ header .background {
 
 .content p {
   margin: 20px 70px 20px 70px;
+  transition: all 0.5s;
 }
 
 .title {
   padding-top: 90px;
 }
+.title p {
+  transition: all 0.5s;
+}
+.title p:hover {
+  transform: scale(1.2);
+}
 
 .title-2 {
   padding: 10px;
+}
+.title-2 p {
+  transition: all 0.5s;
+}
+.title-2 p:hover {
+  transform: scale(1.2);
 }
 
 .div-carousel {

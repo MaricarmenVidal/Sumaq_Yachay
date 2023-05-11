@@ -13,7 +13,10 @@
 
         }
     }
-    div{
+    .div-slogan{
+        margin: auto;
+        display: table;
+
         .slogan{
             font-family: nth($font-family, 7);
             font-size: 200%;
@@ -21,7 +24,28 @@
             padding: 10px;
             color: nth($colores, 4);
             width:100%;
+
+            float: left;
+            position: relative;
+
+            span{
+                position: absolute;
+                right: 0;
+                width: 0;
+                background: white;
+                border-left: 1px solid nth($colores, 4);
+                animation: maquina 5s infinite alternate steps(38);
+            }
         }
+    }
+}
+
+@keyframes maquina {
+    from{
+        width: 100%;
+    }
+    to{
+        width: 0;
     }
 }
 
